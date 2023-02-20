@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".adminpage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AUCTION CREATE"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/acreate"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/adates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:text="AUCTION DATE FIX"
+                        android:textColor="#ffff"
+                        android:textSize="25dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SELLER DETAILS"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/sellers"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CUSTOMER DETAILS"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/customers"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AUCTION FINAL"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/auctfinal"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FEEDBACK VIEW"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/feedbackview"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

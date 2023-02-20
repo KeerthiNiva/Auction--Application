@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".cusactbitupdate">
+
+    <ProgressBar
+        android:id="@+id/progressBar13"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:indeterminate="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/auction"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUCTION FINAL"
+        android:textSize="25dp"
+        android:layout_below="@+id/image"
+        android:textColor="#a33c0a"
+        android:id="@+id/name1"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/name1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="12dp"
+        card_view:cardCornerRadius="6dp"
+        card_view:contentPadding="5dp"
+        android:layout_marginLeft="12dp"
+        card_view:cardBackgroundColor="#f8fafa"
+        android:alpha="0.7">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#fdfdfd"
+            android:padding="8dp">
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/finalrate"
+                android:background="@android:color/transparent"
+                android:lines="1"
+                android:paddingTop="4dp"
+                android:textColor="#a23c0a"
+                android:hint="rate"
+                android:inputType="number"
+                android:textColorHint="#ca704c"
+                android:textSize="20dp"
+                android:textStyle="normal"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_marginLeft="12dp"
+            card_view:cardBackgroundColor="#f8fafa"
+            android:alpha="0.7">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#fdfdfd"
+                android:padding="8dp">
+
+                <Button
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/auctionfinal"
+                    android:text="Save"
+                    android:background="#dd1919"
+                    android:textColor="@android:color/white"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".userpage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/auction"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/image"/>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BID AUCTION"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/cusbitauction"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AUCTION FINAL"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/cusbitfinal"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:contentPadding="5dp"
+                android:layout_marginLeft="12dp"
+                card_view:cardBackgroundColor="#a23c0a"
+                android:alpha="0.7">
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#a23c0a"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FEED BACK"
+                        android:textSize="25dp"
+                        android:background="#a23c0a"
+                        android:fontFamily="serif"
+                        android:textColor="#ffff"
+                        android:id="@+id/cusfeedback"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

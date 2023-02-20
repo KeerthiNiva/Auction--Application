@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:layout_margin="2dp"
+        android:id="@+id/user_lay"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gusername"
+            android:textSize="24dp"
+            android:text="cname"
+            android:layout_toLeftOf="@+id/gusername01"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:id="@+id/gusername01"
+            android:textSize="24dp"
+            android:layout_alignParentRight="true"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/guserphone"
+            android:textSize="24dp"
+            android:layout_below="@+id/gusername"
+            android:text="cphone"
+            android:layout_toLeftOf="@+id/ratesorder"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:id="@+id/guserphone01"
+            android:layout_below="@+id/gusername"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gauctionname"
+            android:textSize="24dp"
+            android:layout_below="@+id/guserphone"
+            android:text="Pname"
+            android:layout_toLeftOf="@+id/gauctionname01"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:id="@+id/gauctionname01"
+            android:layout_below="@+id/guserphone01"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gauctiontype"
+            android:textSize="24dp"
+            android:layout_below="@+id/gauctionname"
+            android:text="Qty(kg)"
+            android:layout_toLeftOf="@+id/gauctiontype01"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:id="@+id/gauctiontype01"
+            android:layout_below="@+id/gauctionname01"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gauctionprod"
+            android:textSize="24dp"
+            android:layout_below="@+id/gauctiontype"
+            android:text="Rate"
+            android:layout_toLeftOf="@+id/gauctionprod01"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:id="@+id/gauctionprod01"
+            android:layout_below="@+id/gauctiontype01"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gauctiondatej"
+            android:textSize="24dp"
+            android:layout_below="@+id/gauctionprod"
+            android:text="Date"
+            android:layout_toLeftOf="@+id/gauctiondatej01"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:id="@+id/gauctiondatej01"
+            android:layout_below="@+id/gauctionprod01"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
